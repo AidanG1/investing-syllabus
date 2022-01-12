@@ -1,11 +1,12 @@
 <script>
 	import { Container } from '@kahi-ui/framework';
+	import '@kahi-ui/framework/dist/kahi-ui.framework.min.css';
 </script>
 
-<Container viewport="widescreen">
-    <div id="container">
-        <slot />
-    </div>
+<Container viewport="widescreen" id="container">
+	<div id="container">
+		<slot />
+	</div>
 </Container>
 
 <style>
