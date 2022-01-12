@@ -23,7 +23,7 @@
 	let create_pdf = function () {};
 	onMount(async () => {
 		create_pdf = function () {
-			html2pdf(document.getElementById('syllabus')).save('syllabus.pdf')
+			html2pdf().from(document.getElementById('syllabus')).save('syllabus.pdf')
 		};
 	});
 </script>
