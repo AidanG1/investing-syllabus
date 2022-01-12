@@ -20,8 +20,6 @@ for (let course of course_schedule) {
     course['date'] = new Date(course.date_string)
 }
 
-console.log(course_schedule)
-
 let schedule_string = ''
 
 for (let schedule of course_schedule) {
@@ -33,15 +31,19 @@ since the COVID-19 pandemic, rising inflation, and the booming housing market ha
 to the forefront of public attention. These factors all alter the balance of risk and reward that 
 each individual considers when they invest their money with the larger question of 
 <strong>how can investing help an individual achieve their goals — both financially and for the benefit of the world?</strong>
-In Get Rich Slowly Through Investing, students willlearn the fundamentals of investing and apply them in a live stock market competition. The course 
-contains no exams — instead, students complete a portfolio strategy pitch of their choice.`
+In Get Rich Slowly Through Investing, students willlearn the fundamentals of investing and apply them in a live 
+stock market competition. The course contains no exams — instead, students complete a portfolio strategy pitch of their choice.`
+
+const course_objective = `By the end of this course, students will understand the process of creating an investment, from
+the basic steps of choosing a company and analyzing it on to concepts like diversification and risk management.
+`
 
 let sections = [
     { heading: 'Syllabus: Get Rich Slowly With Investing', content: '', order: 1 },
     { heading: 'Contact Information', content: 'Instructor: Aidan Gerber<br>Office: ?<br>Email: gerber@rice.edu', order: 2 },
     { heading: 'Course Description', content: course_description, order: 3 },
-    { heading: 'Course Objectives and Learning Outcomes', content: 'By the end of this course, students will understand ', order: 4 },
-    { heading: 'Required Texts and Materials', content: '', order: 5 },
+    { heading: 'Course Objectives and Learning Outcomes', content: course_objective, order: 4 },
+    { heading: 'Required Texts and Materials', content: 'This course has no required materials', order: 5 },
     { heading: 'Exams and Papers', content: 'Instead of exams or papers, this class will contain a final project. Students will design and pitch a portfolio of equities based on strategies they learned in the class.', order: 6 },
     { heading: 'Grade Policies', content: '', order: 7 },
     { heading: 'Absence Policies', content: 'Attending this class is important. If you know you are going to be absent, let the instructor know and class content will be provided.', order: 8 },

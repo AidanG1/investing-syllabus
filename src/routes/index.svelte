@@ -18,19 +18,15 @@
 </script>
 
 <script>
-	import { onMount } from 'svelte';
 	import AsideContent from './AsideContent.svelte';
 	import { Button, Divider, Ellipsis, Heading, Text, Aside } from '@kahi-ui/framework';
 	export let sections;
-	let create_pdf = function () {};
-	onMount(async () => {
-		create_pdf = function () {
-			window.scroll({ top: 0, left: 0, behavior: 'smooth' });
-			setTimeout(() => {
+	function create_pdf() {
+		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+		setTimeout(() => {
 				html2pdf().from(document.getElementById('syllabus')).save('syllabus.pdf');
-			}, 500); // make sure fully at top before creating pdf
-		};
-	});
+		}, 500); // make sure fully at top before creating pdf};
+	}
 </script>
 
 {#await sections}

@@ -18,44 +18,51 @@
 </script>
 
 <script>
-	import { onMount } from 'svelte';
+	import { jsPDF } from 'jspdf';
 	import AsideContent from './AsideContent.svelte';
 	import '@kahi-ui/framework/dist/kahi-ui.framework.min.css';
 	import { Button, Divider, Heading, Text, Aside } from '@kahi-ui/framework';
 
 	export let schedule;
-	let create_pdf = function () {};
-	onMount(async () => {
-		create_pdf = function () {
-			window.scroll({ top: 0, left: 0, behavior: 'smooth' });
-			setTimeout(() => {
-				html2pdf().from(document.getElementById('schedule')).save('schedule.pdf');
-			}, 500); // make sure fully at top before creating pdf
-		};
-	});
+	function create_pdf() {
+		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+		setTimeout(() => {
+			html2pdf().from(document.getElementById('schedule')).save('schedule.pdf');
+		}, 500); // make sure fully at top before creating pdf};
+	}
+	function doc_pdf() {
+		const doc = new jsPDF();
+		doc.html(document.getElementById('schedule'), {
+			callback: function (doc) {
+				doc.save('schedule.pdf');
+			}
+		});
+	}
 </script>
 
 <div id="content_left">
-    <AsideContent>
-        <div slot="header">
+	<AsideContent>
+		<div slot="header">
 			<Heading id="top">Schedule</Heading>
 			<Divider />
-            <Button palette="accent" variation="outline" href="/">Syllabus</Button>
-            <Divider />
+			<Button palette="accent" variation="outline" href="/">Syllabus</Button>
+			<Divider />
+			<Button palette="accent" variation="outline" on:click={doc_pdf}>Text PDF</Button>
+			<Divider />
 			<Button palette="accent" variation="outline" on:click={create_pdf}>
 				Download the schedule as a pdf
 			</Button>
-        </div>
-        <div slot="content">
-            {#each schedule.schedule as meeting}
+		</div>
+		<div slot="content">
+			{#each schedule.schedule as meeting}
 				<Text>
 					<a href="#heading_{meeting.date_string.replace(/ /g, '_')}" class="aside_section">
-                        {meeting.date_string}
+						{meeting.date_string}
 					</a>
 				</Text>
 			{/each}
-        </div>
-    </AsideContent>
+		</div>
+	</AsideContent>
 </div>
 <div id="content_right">
 	<main id="schedule">
