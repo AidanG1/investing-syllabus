@@ -29,13 +29,20 @@
 </script>
 
 {#await sections}
-	loading...
+	<h1>loading...</h1>
 {:then result}
 	<button on:click={create_pdf}>Download the syllabus as a pdf</button>
 	<div id="syllabus">
 		{#each result.content as section}
-			<h1>{section.heading}</h1>
+			<h1 id="heading_{section.heading}">{section.heading}</h1>
 			<div>{@html section.content}</div>
 		{/each}
 	</div>
 {/await}
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    :global(h1, h2, p) {
+        font-family: 'Roboto', sans-serif;
+    }
+</style>
