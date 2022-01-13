@@ -40,6 +40,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Schedule</title>
+</svelte:head>
+
 <div id="content_left">
 	<AsideContent>
 		<div slot="header">

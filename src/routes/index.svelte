@@ -29,6 +29,10 @@
 	}
 </script>
 
+<svelte:head>
+    <title>Syllabus</title>
+</svelte:head>
+
 {#await sections}
 	<h1>Loading <Ellipsis /></h1>
 {:then result}
