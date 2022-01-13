@@ -28,18 +28,20 @@ for (let schedule of course_schedule) {
 
 const course_description = `The recent GameStop short squeeze, staggering market performance
 since the COVID-19 pandemic, rising inflation, and the booming housing market have brought investing 
-to the forefront of public attention. These factors all alter the balance of risk and reward that 
+to the forefront of public attention. These factors alter the risk and reward balance that 
 each individual considers when they invest their money with the larger question of 
 <strong>how can investing help an individual achieve their goals — both financially and for the benefit of the world?</strong>
-In Get Rich Slowly Through Investing, students willlearn the fundamentals of investing and apply them in a live 
-stock market competition. The course contains no exams — instead, students complete a portfolio strategy pitch of their choice.`
+In Data-Driven Investing, students will learn the fundamentals of investing and apply them in a live stock market competition. 
+Together, we'll look at tough investing questions and formulate opinions with data and critical analysis.
+With these skills, we'll analyze the claims made by prominent investors and hunt for the investing strategy of the future.
+The course contains no exams — instead, students complete a portfolio strategy pitch of their choice.`
 
 const course_objective = `By the end of this course, students will understand the process of creating an investment, from
 the basic steps of choosing a company and analyzing it on to concepts like diversification and risk management.
 `
 
 let sections = [
-    { heading: 'Get Rich Slowly With Investing', content: '', order: 1 },
+    { heading: 'Data-Driven Investing', content: '', order: 1 },
     { heading: 'Contact Information', content: 'Instructor: Aidan Gerber<br>Office: ?<br>Email: gerber@rice.edu', order: 2 },
     { heading: 'Course Description', content: course_description, order: 3 },
     { heading: 'Course Objectives and Learning Outcomes', content: course_objective, order: 4 },
