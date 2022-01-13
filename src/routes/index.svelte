@@ -24,13 +24,23 @@
 	function create_pdf() {
 		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
 		setTimeout(() => {
-				html2pdf().from(document.getElementById('syllabus')).save('syllabus.pdf');
+			html2pdf().from(document.getElementById('syllabus')).save('syllabus.pdf');
 		}, 500); // make sure fully at top before creating pdf};
+	}
+	/**
+	 * @param {string} id
+	 */
+	function scroll(id) {
+		document.getElementById(id).scrollIntoView({
+			block: 'start',
+			behavior: 'smooth',
+			inline: 'center'
+		});
 	}
 </script>
 
 <svelte:head>
-    <title>Syllabus</title>
+	<title>Syllabus</title>
 </svelte:head>
 
 {#await sections}
@@ -50,7 +60,10 @@
 			<div slot="content">
 				{#each result.sections_sorted as section}
 					<Text>
-						<a href="#heading_{section.heading.replace(/ /g, '_')}" class="aside_section">
+						<a
+							class="aside_section"
+							on:click={scroll(`heading_${section.heading.replace(/ /g, '_')}`)}
+						>
 							{section.heading}
 						</a>
 					</Text>

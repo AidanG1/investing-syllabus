@@ -39,7 +39,7 @@ the basic steps of choosing a company and analyzing it on to concepts like diver
 `
 
 let sections = [
-    { heading: 'Syllabus: Get Rich Slowly With Investing', content: '', order: 1 },
+    { heading: 'Get Rich Slowly With Investing', content: '', order: 1 },
     { heading: 'Contact Information', content: 'Instructor: Aidan Gerber<br>Office: ?<br>Email: gerber@rice.edu', order: 2 },
     { heading: 'Course Description', content: course_description, order: 3 },
     { heading: 'Course Objectives and Learning Outcomes', content: course_objective, order: 4 },

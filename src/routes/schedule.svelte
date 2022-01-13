@@ -38,6 +38,16 @@
 			}
 		});
 	}
+	/**
+	 * @param {string} id
+	 */
+	function scroll(id) {
+		document.getElementById(id).scrollIntoView({
+			block: 'start',
+			behavior: 'smooth',
+			inline: 'center'
+		});
+	}
 </script>
 
 <svelte:head>
@@ -60,7 +70,10 @@
 		<div slot="content">
 			{#each schedule.schedule as meeting}
 				<Text>
-					<a href="#heading_{meeting.date_string.replace(/ /g, '_')}" class="aside_section">
+					<a
+						on:click={scroll(`heading_${meeting.date_string.replace(/ /g, '_')}`)}
+						class="aside_section"
+					>
 						{meeting.date_string}
 					</a>
 				</Text>
