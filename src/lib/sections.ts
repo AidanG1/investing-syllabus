@@ -42,7 +42,7 @@ the basic steps of choosing a company and analyzing it on to concepts like diver
 
 let sections = [
     { heading: 'Data-Driven Investing', content: '', order: 1 },
-    { heading: 'Contact Information', content: 'Instructor: Aidan Gerber<br>Office: ?<br>Email: gerber@rice.edu', order: 2 },
+    { heading: 'Contact Information', content: 'Instructor: Aidan Gerber<br>URL: <a href="https://syllabus.pages.dev/">https://syllabus.pages.dev/</a><br>Email: gerber@rice.edu', order: 2 },
     { heading: 'Course Description', content: course_description, order: 3 },
     { heading: 'Course Objectives and Learning Outcomes', content: course_objective, order: 4 },
     { heading: 'Required Texts and Materials', content: 'This course has no required materials', order: 5 },
