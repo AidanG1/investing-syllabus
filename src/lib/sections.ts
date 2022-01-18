@@ -34,7 +34,8 @@ each individual considers when they invest their money with the larger question 
 In Data-Driven Investing, students will learn the fundamentals of investing and apply them in a live stock market competition. 
 Together, we'll look at tough investing questions and formulate opinions with data and critical analysis.
 With these skills, we'll analyze the claims made by prominent investors and hunt for the investing strategy of the future.
-The course contains no exams — instead, students complete a portfolio strategy pitch of their choice.`
+The course contains no exams — instead, students complete a portfolio strategy pitch of their choice.<br>
+This class is for learning purposes only and is not financial advice.`
 
 const course_objective = `By the end of this course, students will understand the process of creating an investment, from
 the basic steps of choosing a company and analyzing it on to concepts like diversification and risk management.
