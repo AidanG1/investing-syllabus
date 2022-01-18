@@ -10,6 +10,19 @@
 	<Aside.Section>
 		<slot name="content" />
 	</Aside.Section>
+	<Aside.Footer>
+		<a
+			aria-label="View the source code"
+			href="https://github.com/AidanG1/investing-syllabus"
+			target="_blank"
+			rel="nofollow noopener noreferrer"
+			>Source code <img
+				src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FGitHub_logo.png&f=1&nofb=1"
+				alt="Github Logo"
+				width="30" style="display: inline-block;"
+			></a
+		>
+	</Aside.Footer>
 </Aside.Container>
 
 <style>
