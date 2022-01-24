@@ -30,7 +30,7 @@ const course_description = `The recent GameStop short squeeze, staggering market
 since the COVID-19 pandemic, rising inflation, and the booming housing market have brought investing 
 to the forefront of public attention. These factors alter the risk and reward balance that 
 each individual considers when they invest their money with the larger question of 
-<strong>how can investing help an individual achieve their goals — both financially and for the benefit of the world?</strong>
+<strong>how can investing help an individual achieve their goals and what tools are necessary to know.</strong>
 In Data-Driven Investing, students will learn the fundamentals of investing and apply them in a live stock market competition. 
 Together, we'll look at tough investing questions and formulate opinions with data and critical analysis.
 With these skills, we'll analyze the claims made by prominent investors and perform original research — 
@@ -42,7 +42,7 @@ const course_objective = `By the end of this course, students will understand th
 the basic steps of picking a company and analyzing it on to concepts like diversification and risk management.
 `
 
-const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>2. Interpret SEC filings to decide whether a stock is worth purchasing and whether it fits within a given strategy.<br>3. Analyze investing claims from a variety of sources using data to determine accuracy.<br>4. Summarize investing concepts for others`
+const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>2. Interpret whether a stock is worth purchasing and whether it fits within a given strategy.<br>3. Analyze investing claims from a variety of sources using data to determine accuracy.<br>4. Summarize investing concepts for others`
 
 let sections = [
     { heading: 'Data-Driven Investing', content: '', order: 1 },
