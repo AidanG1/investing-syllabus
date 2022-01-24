@@ -1,19 +1,19 @@
 let course_schedule = [
     { date_string: 'August 23, 2022', plan: 'Introduce general course ideas, talk about ETFs and Indexes(s&p,nasdaq,dow,foreign ones). Assign students to look at a company they have personally used and think about why it would be a good investment' },
-    { date_string: 'August 30, 2022', plan: 'Fundamental analysis? Assign to do it on one stock' },
-    { date_string: 'September 6, 2022', plan: 'Technical analysis? Assign to do it on one stock' },
-    { date_string: 'September 13, 2022', plan: 'Options' },
-    { date_string: 'September 20, 2022', plan: 'Look at Rice portfolio' },
-    { date_string: 'September 27, 2022', plan: '' },
-    { date_string: 'October 4, 2022', plan: '' },
-    { date_string: 'October 11, 2022', plan: '' },
-    { date_string: 'October 18, 2022', plan: '' },
-    { date_string: 'October 25, 2022', plan: '' },
-    { date_string: 'November 1, 2022', plan: '' },
-    { date_string: 'November 8, 2022', plan: '' },
-    { date_string: 'November 15, 2022', plan: '' },
-    { date_string: 'November 22, 2022', plan: '' },
-    { date_string: 'November 29, 2022', plan: '' },
+    { date_string: 'August 30, 2022', plan: 'Fundamental Analysis' },
+    { date_string: 'September 6, 2022', plan: 'Fundamental Day 2' },
+    { date_string: 'September 13, 2022', plan: 'Fundamental Day 3' },
+    { date_string: 'September 20, 2022', plan: 'Technical Analysis' },
+    { date_string: 'September 27, 2022', plan: 'Technical Day 2' },
+    { date_string: 'October 4, 2022', plan: 'Technical Day 3' },
+    { date_string: 'October 11, 2022', plan: 'Derivatives' },
+    { date_string: 'October 18, 2022', plan: 'Derivatives Day 2' },
+    { date_string: 'October 25, 2022', plan: 'Derivatives Day 3' },
+    { date_string: 'November 1, 2022', plan: 'Non-equity investments and introduce final project' },
+    { date_string: 'November 8, 2022', plan: 'Portfolio' },
+    { date_string: 'November 15, 2022', plan: 'Portfolio Day 2' },
+    { date_string: 'November 22, 2022', plan: 'Portfolio Day 3' },
+    { date_string: 'November 29, 2022', plan: 'Small Group Final Presentations' },
 ]
 
 for (let course of course_schedule) {
@@ -42,7 +42,7 @@ const course_objective = `By the end of this course, students will understand th
 the basic steps of picking a company and analyzing it on to concepts like diversification and risk management.
 `
 
-const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>2. Interpret SEC filings to decide whether a stock is worth purchasing and whether it fits within a given strategy.<br>3. Analyze investing claims from a variety of sources using data to determine truthfulness.<br>4. Summarize investing concepts for others`
+const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>2. Interpret SEC filings to decide whether a stock is worth purchasing and whether it fits within a given strategy.<br>3. Analyze investing claims from a variety of sources using data to determine accuracy.<br>4. Summarize investing concepts for others`
 
 let sections = [
     { heading: 'Data-Driven Investing', content: '', order: 1 },
