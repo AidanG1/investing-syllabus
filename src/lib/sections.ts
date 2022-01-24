@@ -26,8 +26,7 @@ for (let schedule of course_schedule) {
     schedule_string = schedule_string.concat(`<h2>${schedule.date_string}</h2><p>${schedule.plan}</p>`)
 }
 
-const course_description = `Nothing in this class will be financial advice. It is about learning the tools 
-necessary to be an analytical and informed investor. The recent GameStop short squeeze, staggering market performance
+const course_description = `The recent GameStop short squeeze, staggering market performance
 since the COVID-19 pandemic, rising inflation, and the booming housing market have brought investing 
 to the forefront of public attention. These factors alter the risk and reward balance that 
 each individual considers when they invest their money with the larger question of 
@@ -39,18 +38,18 @@ rather than blindly listening to Reddit posts with 8 upvotes.
 The course contains no exams — instead, students complete a portfolio strategy pitch of their choice.<br>
 This class is for learning purposes only and is not financial advice.`
 
-const course_objective = `By the end of this course, students will understand the process of creating an investment, from
-the basic steps of choosing a company and analyzing it on to concepts like diversification and risk management.
+const course_objective = `By the end of this course, students will understand the process of choosing an investment, from
+the basic steps of picking a company and analyzing it on to concepts like diversification and risk management.
 `
 
-const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>2. Interpret SEC filings to decide whether a stock is worth purchasing and whether it fits within a given strategy.<br>3. Analyze investing claims from a variety of sources using data to determine truthfulness.`
+const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>2. Interpret SEC filings to decide whether a stock is worth purchasing and whether it fits within a given strategy.<br>3. Analyze investing claims from a variety of sources using data to determine truthfulness.<br>4. Summarize investing concepts for others`
 
 let sections = [
     { heading: 'Data-Driven Investing', content: '', order: 1 },
     { heading: 'Contact Information', content: 'Instructor: Aidan Gerber<br>URL: <a href="https://syllabus.pages.dev/">https://syllabus.pages.dev/</a><br>Email: gerber@rice.edu', order: 2 },
     { heading: 'Course Description', content: course_description, order: 3 },
     { heading: 'Learning Objectives', content: learning_objectives, order: 3.1 },
-    { heading: 'Assessments', content: 'Each week, a short stock pitch of a company that matches what was learned the previous week. At the end of the semester, students will do a pitch of a stock strategy supported by data and analytical tools they learned in class.', order: 3.2 },
+    { heading: 'Assessments', content: ' In periods of 3 weeks each, students will learn fundamental and technical analysis, equity derivatives, and portfolio review. After learning these concepts, small groups will present a concept to the class in a discussion-based environment. At the end of the year, students will pitch a group of stocks based on what they learned.', order: 3.2 },
     { heading: 'Course Objectives and Learning Outcomes', content: course_objective, order: 4 },
     { heading: 'Required Texts and Materials', content: 'This course has no required materials', order: 5 },
     { heading: 'Exams and Papers', content: 'Instead of exams or papers, this class will contain a final project. Students will design and pitch a portfolio of equities based on strategies they learned in the class.', order: 6 },
