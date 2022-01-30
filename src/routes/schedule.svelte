@@ -61,8 +61,8 @@
 			<Divider />
 			<Button palette="accent" variation="outline" href="/">Syllabus</Button>
 			<Divider />
-			<Button palette="accent" variation="outline" on:click={doc_pdf}>Text PDF</Button>
-			<Divider />
+			<!-- <Button palette="accent" variation="outline" on:click={doc_pdf}>Text PDF</Button>
+			<Divider /> -->
 			<Button palette="accent" variation="outline" on:click={create_pdf}>
 				Download the schedule as a pdf
 			</Button>
