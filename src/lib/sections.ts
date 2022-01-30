@@ -52,7 +52,7 @@ let sections = [
     { heading: 'Contact Information', content: 'Instructor: Aidan Gerber<br>URL: <a href="https://syllabus.pages.dev/">https://syllabus.pages.dev/</a><br>Email: gerber@rice.edu', order: 2 },
     { heading: 'Course Description', content: course_description, order: 3 },
     { heading: 'Learning Objectives', content: learning_objectives, order: 3.1 },
-    { heading: 'Assessments', content: ' In periods of 3 weeks each, students will learn fundamental and technical analysis, equity derivatives, and portfolio review. After learning these concepts, small groups will present a concept to the class in a discussion-based environment. At the end of the year, students will pitch a group of stocks based on what they learned.', order: 3.2 },
+    { heading: 'Assessments', content: ' In periods of 3 weeks each, students will learn fundamental and technical analysis, equity derivatives, and portfolio review. After learning these concepts, small groups will present a concept to the class in a discussion-based environment. At the end of the semester, students will pitch a group of stocks based on what they learned.', order: 3.2 },
     { heading: 'Course Objectives and Learning Outcomes', content: course_objective, order: 4 },
     { heading: 'Required Texts and Materials', content: 'This course has no required materials', order: 5 },
     { heading: 'Exams and Papers', content: 'Instead of exams or papers, this class will contain a final project. Students will design and pitch a portfolio of equities based on strategies they learned in the class.', order: 6 },
