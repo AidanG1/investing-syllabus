@@ -1,5 +1,5 @@
 let course_schedule = [
-    { date_string: 'August 23, 2022', plan: 'Introduce general course ideas, talk about ETFs and Indexes(s&p,nasdaq,dow,foreign ones). Assign students to look at a company they have personally used and think about why it would be a good investment' },
+    { date_string: 'August 23, 2022', plan: 'Introduce general course ideas, talk about ETFs and Indexes (S&P, Nasdaq, Dow, Nikkei, etc.). Assign students to look at a company they have personally used and think about why it would be a good investment' },
     { date_string: 'August 30, 2022', plan: 'Fundamental Analysis Day 1' },
     { date_string: 'September 6, 2022', plan: 'Fundamental Day 2' },
     { date_string: 'September 13, 2022', plan: 'Fundamental Day 3' },
