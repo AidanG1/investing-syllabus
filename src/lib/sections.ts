@@ -42,7 +42,10 @@ const course_objective = `By the end of this course, students will understand th
 the basic steps of picking a company and analyzing it on to concepts like diversification and risk management.
 `
 
-const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>2. Interpret whether a stock is worth purchasing and whether it fits within a given strategy.<br>3. Analyze investing claims from a variety of sources using data to determine accuracy.<br>4. Summarize investing concepts for others`
+const learning_objectives = `1. Evaluate stocks using fundamental and technical analysis.<br>
+2. Interpret whether a stock is worth purchasing and whether it fits within a given strategy.<br>
+3. Analyze investing claims from a variety of sources using data to determine accuracy.<br>
+4. Summarize investing concepts for others`
 
 let sections = [
     { heading: 'Data-Driven Investing', content: '', order: 1 },
@@ -53,7 +56,7 @@ let sections = [
     { heading: 'Course Objectives and Learning Outcomes', content: course_objective, order: 4 },
     { heading: 'Required Texts and Materials', content: 'This course has no required materials', order: 5 },
     { heading: 'Exams and Papers', content: 'Instead of exams or papers, this class will contain a final project. Students will design and pitch a portfolio of equities based on strategies they learned in the class.', order: 6 },
-    { heading: 'Grade Policies', content: '', order: 7 },
+    { heading: 'Grade Policies', content: 'Participation: 50%<br>Topic Presentations: 35%<br>Final Project: 15%', order: 7 },
     { heading: 'Absence Policies', content: 'Attending this class is important. If you know you are going to be absent, let the instructor know and class content will be provided.', order: 8 },
     {
         heading: 'Rice Honor Code', content: `In this course, all students will be held to the standards of the Rice Honor Code, a code that you pledged to honor when you matriculated at this institution. If you are unfamiliar with the details of this code and how it is administered, you should consult the Honor System Handbook at <a href="http://honor.rice.edu/honor-system-handbook/">http://honor.rice.edu/honor-system-handbook/</a>. This handbook outlines the University's expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.`, order: 9
