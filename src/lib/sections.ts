@@ -1,9 +1,9 @@
 let course_schedule = [
     { date_string: 'August 23, 2022', plan: 'Introduce general course ideas, talk about ETFs and Indexes (S&P, Nasdaq, Dow, Nikkei, etc.). Assign students to look at a company they have personally used and think about why it would be a good investment' },
-    { date_string: 'August 30, 2022', plan: 'Fundamental Analysis Day 1' },
+    { date_string: 'August 30, 2022', plan: 'Fundamental Analysis Day 1 (determine value using macro and microeconomic factors like interest rates and profit trends)' },
     { date_string: 'September 6, 2022', plan: 'Fundamental Day 2' },
     { date_string: 'September 13, 2022', plan: 'Fundamental Day 3' },
-    { date_string: 'September 20, 2022', plan: 'Technical Analysis Day 1' },
+    { date_string: 'September 20, 2022', plan: 'Technical Analysis Day 1 (determine value using price, volume, and chart patterns)' },
     { date_string: 'September 27, 2022', plan: 'Technical Day 2' },
     { date_string: 'October 4, 2022', plan: 'Technical Day 3' },
     { date_string: 'October 11, 2022', plan: 'Derivative Day 1' },
