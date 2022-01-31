@@ -30,7 +30,7 @@ const course_description = `The recent GameStop short squeeze, staggering market
 since the COVID-19 pandemic, rising inflation, and the booming housing market have brought investing 
 to the forefront of public attention. These factors alter the risk and reward balance that 
 each individual considers when they invest their money with the larger question of 
-<strong>how can investing help an individual achieve their goals and what tools are necessary to know.</strong>
+<strong>how can investing tools and data help an individual achieve their financial goals.</strong>
 In Data-Driven Investing, students will learn the fundamentals of investing and apply them in a live stock market competition. 
 Together, we'll look at tough investing questions and formulate opinions with data and critical analysis.
 With these skills, we'll analyze the claims made by prominent investors and perform original research — 
