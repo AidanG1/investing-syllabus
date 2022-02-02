@@ -1,5 +1,5 @@
 let course_schedule = [
-    { date_string: 'August 23, 2022', plan: 'Introduce general course ideas, talk about ETFs and Indexes (S&P, Nasdaq, Dow, Nikkei, etc.). What sources are good and what guidelines are there for finding new ones. Assign students to look at a company they have personally used and think about why it would be a good investment' },
+    { date_string: 'August 23, 2022', plan: 'Introduce general course ideas, talk about ETFs and Indexes (S&P, Nasdaq, Dow, Nikkei, etc.). What is alpha? What sources are good and what guidelines are there for finding new ones. Assign students to look at a company they have personally used and think about why it would be a good investment' },
     { date_string: 'August 30, 2022', plan: 'Fundamental Analysis Day 1 (determine value using macro and microeconomic factors like interest rates and profit trends)' },
     { date_string: 'September 6, 2022', plan: 'Fundamental Day 2' },
     { date_string: 'September 13, 2022', plan: 'Guest Speaker 1' },
@@ -12,7 +12,7 @@ let course_schedule = [
     { date_string: 'November 1, 2022', plan: 'Guest Speaker 2 and introduce final project' },
     { date_string: 'November 8, 2022', plan: 'Portfolio Building Day 1' },
     { date_string: 'November 15, 2022', plan: 'Portfolio Building Day 2' },
-    { date_string: 'November 22, 2022', plan: 'Non-stock investments (real estate, crypto, gold, commodities, gourd futures, etc.)' },
+    { date_string: 'November 22, 2022', plan: 'Non-stock investments (real estate, bonds, crypto, gold, commodities, gourd futures, etc.)' },
     { date_string: 'November 29, 2022', plan: 'Small Group Final Presentations' },
 ]
 
@@ -32,7 +32,7 @@ to the forefront of public attention. These factors alter the risk and reward ba
 each individual considers when they invest their money with the larger question of 
 <strong>how can investing tools and evidence help an individual achieve their financial goals.</strong>
 In Evidence-based Investing, students will learn the fundamentals of investing and apply them in a live stock market competition. 
-Together, we'll look at tough investing questions and formulate opinions with evidence and critical analysis.
+Together, we'll look at tough investing questions and formulate opinions with data and critical analysis.
 With these skills, we'll analyze the claims made by prominent investors and perform original research — 
 rather than blindly listening to Reddit posts with 8 upvotes.
 The course contains no exams — instead, students complete a portfolio strategy pitch of their choice. By taking this
@@ -56,7 +56,7 @@ let sections = [
     { heading: 'Learning Outcomes', content: course_objective, order: 4 },
     { heading: 'Required Texts and Materials', content: 'This course has no required materials. We will be using tools like FRED, Yahoo Finance, Capital IQ, Koyfin, Quiverquant, etc.', order: 5 },
     { heading: 'Exams and Papers', content: 'Instead of exams or papers, this class will contain a final project. Students will design and pitch a portfolio of equities based on strategies they learned in the class.', order: 6 },
-    { heading: 'Grade Policies', content: 'Participation: 40%<br>Topic Presentations: 40%<br>Final Project: 20%. Satisfactory/unsatisfactory cutoff: 65%', order: 7 },
+    { heading: 'Grade Policies', content: 'Participation: 40%<br>Topic Presentations: 40%<br>Final Project: 20%.<br>Satisfactory/unsatisfactory cutoff: 65%', order: 7 },
     { heading: 'Absence Policies', content: 'Attending this class is important. If you know you are going to be absent, let the instructor know and class content will be provided. The class also has two unexcused absences.', order: 8 },
     { heading: 'Rice Honor Code', content: `In this course, all students will be held to the standards of the Rice Honor Code, a code that you pledged to honor when you matriculated at this institution. If you are unfamiliar with the details of this code and how it is administered, you should consult the Honor System Handbook at <a href="http://honor.rice.edu/honor-system-handbook/">http://honor.rice.edu/honor-system-handbook/</a>. This handbook outlines the University's expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.`, order: 9 },
     { heading: 'Disability Resource Center', content: 'If you have a documented disability or other condition that may affect academic performance you should: 1) make sure this documentation is on file with the Disability Resource Center (Allen Center, Room 111 / adarice@rice.edu / x5841) to determine the accommodations you need; and 2) talk with me to discuss your accommodation needs.', order: 10 },
