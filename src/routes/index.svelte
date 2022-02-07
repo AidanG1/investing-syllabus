@@ -63,6 +63,7 @@
 						<a
 							class="aside_section"
 							on:click={scroll(`heading_${section.heading.replace(/ /g, '_')}`)}
+							href="#"
 						>
 							{section.heading}
 						</a>
@@ -75,9 +76,9 @@
 		<main id="syllabus">
 			{#each result.sections_sorted as section}
 				<Divider />
-				<h1 id="heading_{section.heading.replace(/ /g, '_')}">
+				<h2 id="heading_{section.heading.replace(/ /g, '_')}">
 					{section.heading}
-				</h1>
+				</h2>
 				<Text>{@html section.content}</Text>
 			{/each}
 		</main>

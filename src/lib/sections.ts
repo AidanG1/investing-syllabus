@@ -23,7 +23,7 @@ for (let course of course_schedule) {
 let schedule_string = ''
 
 for (let schedule of course_schedule) {
-    schedule_string = schedule_string.concat(`<h3>${schedule.date_string}</h3><p>${schedule.plan}</p>`)
+    schedule_string = schedule_string.concat(`<h5>${schedule.date_string}</h5><p>${schedule.plan}</p>`)
 }
 
 const course_description = `The recent GameStop short squeeze, staggering market performance
@@ -56,7 +56,7 @@ let sections = [
     { heading: 'Learning Outcomes', content: course_objective, order: 4 },
     { heading: 'Required Texts and Materials', content: 'This course has no required materials. We will be using tools like FRED, Yahoo Finance, Capital IQ, Koyfin, Quiverquant, etc.', order: 5 },
     { heading: 'Exams and Papers', content: 'Instead of exams or papers, this class will contain a final project. Students will design and pitch a portfolio of equities based on strategies they learned in the class.', order: 6 },
-    { heading: 'Grade Policies', content: 'Participation: 35%<br>Topic Presentations: 35%<br>Final Project: 20%>br>Discussions: 10%<br>Satisfactory/unsatisfactory cutoff: 65%', order: 7 },
+    { heading: 'Grade Policies', content: 'Participation: 35%<br>Topic Presentations: 35%<br>Final Project: 20%<br>Discussions: 10%<br>Satisfactory/unsatisfactory cutoff: 65%', order: 7 },
     { heading: 'Absence Policies', content: 'Attending this class is important. If you know you are going to be absent, let the instructor know and class content will be provided. The class also has two unexcused absences.', order: 8 },
     { heading: 'Rice Honor Code', content: `In this course, all students will be held to the standards of the Rice Honor Code, a code that you pledged to honor when you matriculated at this institution. If you are unfamiliar with the details of this code and how it is administered, you should consult the Honor System Handbook at <a href="http://honor.rice.edu/honor-system-handbook/">http://honor.rice.edu/honor-system-handbook/</a>. This handbook outlines the University's expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.`, order: 9 },
     { heading: 'Disability Resource Center', content: 'If you have a documented disability or other condition that may affect academic performance you should: 1) make sure this documentation is on file with the Disability Resource Center (Allen Center, Room 111 / adarice@rice.edu / x5841) to determine the accommodations you need; and 2) talk with me to discuss your accommodation needs.', order: 10 },
